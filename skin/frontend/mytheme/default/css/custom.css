@@ -1,0 +1,118 @@
+body{
+	font-family: Montserrat;
+}
+#bgtop{
+    background: url(../images/bg-header.jpg) center top no-repeat;
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0;
+    margin-top: -20px;
+}
+#topLinks .links, #topLinks .links li{
+	float: left;
+    margin-left: 7px;
+}
+#topLinks a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.input-group-addon:first-child{
+	padding: 0 7px;
+	background: #fff;
+    border: none;
+}
+#search-icon{
+	background: url(../images/lupa.jpg) center top no-repeat;
+	width: 22px;
+	height: 22px;
+}
+.input-group .form-control:not(:first-child):not(:last-child), .input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child){
+	border: none;
+}
+.btn-search{
+	background: #476072;
+    border-color: #476072;
+    color: #ffffff;
+}
+
+.slideshow-container{
+	text-align: center;
+	margin-top: 50px;
+}
+.center{
+	text-align: center;
+}
+.cartgo{
+	color: #fff22d;
+    background: url(../images/cart.png) left top no-repeat;
+    width: 80px;
+    height: 35px;
+    display: block;
+    padding-left: 45px;
+    font-size: 24px;
+}
+.cartgo:hover{
+	color: #fff22d;
+	text-decoration: none;
+}
+.tittle-section{
+	color: #487d9a;
+	font-size: 24px;
+	font-family: "Times New Roman";
+	margin: 30px 0;
+	text-transform: uppercase;
+}
+.tittle-section-w{
+	color: #fff;
+	font-size: 24px;
+	font-family: "Times New Roman";
+	margin: 30px 0;
+	text-transform: uppercase;
+}
+.s-icon{
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin-left: 10px;
+}
+.icon-fb{
+	background: url(../images/fb.png) center no-repeat;
+}
+.icon-tw{
+	background: url(../images/tw.png) center no-repeat;
+}
+.icon-it{
+	background: url(../images/it.png) center no-repeat;
+}
+.icon-fb-b{
+	background: url(../images/fb-blue.jpg) center no-repeat;
+}
+.icon-tw-b{
+	background: url(../images/tw-blue.jpg) center no-repeat;
+}
+.icon-it-b{
+	background: url(../images/it-blue.jpg) center no-repeat;
+}
+.row-fluid{
+    width: 100%;
+    float: left;
+}
+#footer-blue{
+	background: url(../images/bg-azul.jpg) center top no-repeat;
+}
+#footer-orange{
+	background: #fa9820;
+	padding: 15px 0;
+}
+#footer-white ul{
+	margin-bottom: 0;
+}
+#footer-white ul a, #footer-white ul li{
+	color: #487d9a;
+	text-decoration: none;
+	margin-bottom: 7px;
+}
+.title-footer{
+	color: #487d9a;
+}
